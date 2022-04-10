@@ -3,7 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "description": "⚕️Component development kit library for Quiron Web",
-  "main": "index.js",
+  "workspaces": [
+    "pkg/*",
+    "examples/*"
+  ],
   "scripts": {
     "prepare": "husky install",
     "dev": "npm run dev --workspace",
