@@ -1,0 +1,37 @@
+{
+  "name": "@quiron-cdk/odontogram",
+  "version": "0.2.1",
+  "description": "📈 Dynamically draw graphs on SVG elements",
+  "license": "MIT",
+  "main": "dist/index.mjs",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "import": "./dist/index.mjs",
+      "default": "./dist/index.mjs"
+    }
+  },
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ekisa-Team/quiron-cdk/tree/main/packages/odontogram"
+  },
+  "bugs": {
+    "url": "https://github.com/Ekisa-Team/quiron-cdk/issues"
+  },
+  "homepage": "https://github.com/Ekisa-Team/quiron-cdk/tree/main/packages/odontogram",
+  "keywords": [
+    "ekisa",
+    "quiron cdk",
+    "odontogram",
+    "odontograma"
+  ],
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "release": "pnpm publish --access public"
+  }
+}
