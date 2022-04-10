@@ -1,4 +1,4 @@
-# **CDK**
+# **Quirón CDK**
 
 ## [@quiron-cdk/odontogram](./pkg/odontogram/README.md)
 
